@@ -1,2 +1,5 @@
 print("Hello, World!") 
-#new_Version
+
+with open("hello.txt", "w") as file:
+    file.write("Hello, World!")
+
